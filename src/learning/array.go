@@ -30,9 +30,9 @@ func main()  {
 
   // for range
   var books = [4]string{"harpot","laspel","dee","doo"}
-
-  for _, book := range books {
-    fmt.Printf("nama buku : %s \n", book)
+  // get only element
+  for j := range books {
+    fmt.Printf("elemen buku : %d \n", j)
   }
 
 }
