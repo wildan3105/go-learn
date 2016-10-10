@@ -44,4 +44,15 @@ func main()  {
     }
     fmt.Println()
   }
+
+  // label
+  outerLoop:
+  for o:= 0; o < 5; o++{
+    for p:= 0; p < 5; p++{
+      if o == 3 {
+        break outerLoop
+      }
+      fmt.Print("matriks [", o, "][", p, "]", "\n" )
+    }
+  }
 }
