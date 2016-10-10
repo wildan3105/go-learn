@@ -13,8 +13,9 @@ func main()  {
   // direct declaration
   var fruits = [4] string {"apple","pinneapple","strawberry","orange"}
 
-  fmt.Println("Total fruit \t \t", len(fruits))
-  fmt.Println("Each fruit : \t ", fruits)
+  for i:=0; i < len(fruits); i++{
+    fmt.Printf("element %d : %s \n", i, fruits[i])
+  }
 
   // initialization without prefix value
   var numbers = [...] int{2,3,4,45,45}
@@ -26,4 +27,12 @@ func main()  {
 
   fmt.Println("numbers1 ", numbers1)
   fmt.Println("numbers2 ", numbers2)
+
+  // for range
+  var books = [4]string{"harpot","laspel","dee","doo"}
+
+  for _, book := range books {
+    fmt.Printf("nama buku : %s \n", book)
+  }
+
 }
