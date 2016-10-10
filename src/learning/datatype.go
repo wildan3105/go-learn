@@ -26,4 +26,14 @@ func main()  {
   // boolean var
   var exist bool = true
   fmt.Printf("exist ? %t \n", exist)
+
+  // string
+  var msg = `My name is Wildan.
+  I'm livin' at Bandung
+  "ITB."
+  `
+  fmt.Println(msg)
+
+  // empty variable has 'nil' value
+  
 }
