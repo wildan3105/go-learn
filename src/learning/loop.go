@@ -34,7 +34,7 @@ func main()  {
       break
     }
 
-    fmt.Println("Numbers ", k)
+    fmt.Println("Number ", k)
   }
 
   // nested loop
