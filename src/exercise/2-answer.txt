@@ -1,0 +1,7 @@
+1. whitespace : blank line to mark empty code, no meaning, just spacing
+2. comment : words to explain of certain code. two ways to write comment :
+  // just single line comment
+  /* paragraph comment */
+3. the meaning of package main : the use of "main" package
+4. we have to define another "fmt" in the main package
+5. modify program :
