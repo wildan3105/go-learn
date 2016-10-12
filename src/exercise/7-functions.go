@@ -8,5 +8,6 @@ func main()  {
   for _, v := range xs {
     total += v
   }
+  fmt.Println("test")
   fmt.Println(total / float64(len(xs)))
 }
