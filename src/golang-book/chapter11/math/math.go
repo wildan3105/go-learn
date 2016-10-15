@@ -1,5 +1,6 @@
 package math
 
+// Finds the average of a series of 4 numbers defined
 func Average(xs []float64) float64 {
   total := float64(0)
   for _,x := range xs {
