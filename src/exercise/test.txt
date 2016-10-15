@@ -1,0 +1,1 @@
+Hi, i'm new to Golang! And I'm excited about it :)
