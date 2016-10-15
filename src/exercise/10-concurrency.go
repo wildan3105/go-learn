@@ -5,7 +5,7 @@ import (
   "math/rand"
 )
 
-
+// goroutines
 // give some delay
 
 func f(n int){
