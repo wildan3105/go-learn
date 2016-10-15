@@ -62,3 +62,6 @@ func main(){
   var input string
   fmt.Scanln(&input)
 }
+
+// buffer, asynchronous
+// c:= make(chan int, 1)
