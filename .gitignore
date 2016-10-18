@@ -1,3 +1,4 @@
 pkg
 install
 src/game
+src/bin
